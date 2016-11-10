@@ -1,8 +1,29 @@
+@keyframes dankBackground{
+
+	0% {background-position: 0px 0px; }
+	25% {background-position: -640px 960px; background-size: 640px 120px; }
+	75% {background-position: 320px, 960px; background-size: 1920px 1080px; }
+
+}
+
 @keyframes stevo {
 
 	0% {transform: scale(5,5); }
 	50% {transform: scale(1,1); }
 	100% {transform: scale(5,5); }
+
+}
+
+body {
+
+	background-image: url("res/images/Kawaii.png");
+	background-position: 0px 0px;
+	background-size: 80px 60px;
+
+	animation-name: dankBackground;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-delay: 0s;
 
 }
 
