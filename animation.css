@@ -1,0 +1,29 @@
+@keyframes stevo {
+
+	0% {transform: scale(5,5); }
+	50% {transform: scale(1,1); }
+	100% {transform: scale(5,5); }
+
+}
+
+#Stevo {
+
+	width: 100px;
+	height: 100px;
+
+	display: block;
+	margin: auto;
+
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	margin: -50px 0 0 -50px;
+
+	animation-name: stevo;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: 0s;
+
+}
